@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 let enableCloudMirrorKey = "enableCloudMirrorKey"
-let cloudContainerName = "iCloud.com.fatbobman.syncManager"
+let cloudContainerName = "iCloud.realmNCkStudy"
 
 enum AppActor: String, CaseIterable {
     case app

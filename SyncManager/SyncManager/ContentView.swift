@@ -14,6 +14,7 @@ struct ContentView: View {
         animation: .easeInOut
     ) var items: FetchedResults<Item>
     @AppStorage(enableCloudMirrorKey) var enable = false
+    
     var body: some View {
         NavigationView {
             List(items) { item in
